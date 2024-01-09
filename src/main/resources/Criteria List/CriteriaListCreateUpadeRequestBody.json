@@ -1,0 +1,26 @@
+{
+    "header": {
+        "reqType": "REQUEST",
+        "api": "FT_LIMIT_DEST_API",
+        "apiKey": "QMKLFONI1EZXLF2CKPYGPFX248",
+        "priority": "3",
+        "channel": "SEANET",
+        "subChannel": "SEAPORTAl",
+        "location": "10.9.12.90",
+        "context": "PC",
+        "trusted": "false",
+        "userID": "FT_LIMIT_DEST_API",
+        "requestAPI": "FT_LIMIT_DEST_API",
+        "requestNode": "02",
+        "synasyn": "true"
+    },
+    "body": {
+        "command": "GET_TRANSACTION",
+        "transaction": {
+            "authenType": "CRITERIA_LIST",
+            "method": "C/U",
+            "key": "XUANTEST1",
+            "value": "Mo ta cho CATEGORY"
+        }
+    }
+}

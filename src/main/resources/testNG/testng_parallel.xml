@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite" parallel="tests" thread-count="2">
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox"/>
+		<parameter name="username" value="Tai Le"/>
+		<parameter name="pass" value="Pass 1"/>
+		<classes>
+			<class name="practice.TestNG_Parallel" />
+		</classes>
+	</test>
+	
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome"/>
+		<parameter name="username" value="Duong Nguyen"/>
+		<parameter name="pass" value="Pass 2"/>
+		<classes>
+			<class name="practice.TestNG_Parallel" />
+		</classes>
+	</test>
+</suite> <!--DemoSuite-->
